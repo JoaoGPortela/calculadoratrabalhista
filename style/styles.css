@@ -17,6 +17,11 @@ body {
   transition: all 0.3s ease;
 }
 
+.bg-gold {
+  background-color: #FFD700 !important;
+}
+
+
 .btn-gold:hover {
   background-color: #e0c200;
   color: #000;

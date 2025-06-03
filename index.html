@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>Calculadora de Rescisão</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style/styles.css">
 </head>
+
 <body>
   <div class="container py-5">
     <h1 class="text-center mb-4 text-gold">Calculadora de Rescisão Trabalhista</h1>
@@ -14,7 +16,10 @@
       <div class="row mb-3">
         <div class="col-md-4">
           <label class="form-label text-light">Salário Bruto</label>
-          <input type="number" class="form-control" id="salario" required>
+          <div class="input-group">
+            <span class="input-group-text bg-gold text-dark fw-bold">R$</span>
+            <input type="number" class="form-control" id="salario" required step="0.01">
+          </div>
         </div>
         <div class="col-md-4">
           <label class="form-label text-light">Data de Admissão</label>
@@ -70,4 +75,5 @@
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
